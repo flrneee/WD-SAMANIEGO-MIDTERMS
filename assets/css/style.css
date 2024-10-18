@@ -2,8 +2,14 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: black;
     padding: 20px;
+    border: 2em solid;
+    border-left: 5em solid;
+    border-right: 5em solid;
 }
 
+img {
+    border: 1em solid rgb(21, 22, 48);
+}
 .container {
     display: flex;
     height: 100%;
@@ -49,11 +55,10 @@ h3 {
 
 p {
     font-style: italic;
-    font-size: large;
-    line-height: 1.6;
     background-color: rgb(90, 165, 165);
-    margin: 0;
+    color: aliceblue;
     padding: 10px;
+    margin: auto;
     border-left: 1em solid rgb(0, 67, 82);
 }
 
