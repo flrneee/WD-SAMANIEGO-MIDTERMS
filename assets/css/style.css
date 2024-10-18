@@ -64,3 +64,8 @@ ul.name {
     padding: o;
 }
 
+ul.artworks {
+    height: 50%;
+    width: 50%;
+    object-fit: cover;
+}
